@@ -40,17 +40,23 @@ Note: When you run the tests against V2, you’ll see differences in screenshots
 3.2.  Navigate to the recently cloned folder cs-applitools-java-hackathon.
 
 3.3.  Run one of the following commands for Traditional Test Suite
-    -  Run the Traditional Test Suite on Version 1: `py.test TraditionalSuite.py --url=https://demo.applitools.com/hackathon.html`
-    -  Run the Traditional Test Suite on Version 2: `py.test TraditionalSuite.py --url=https://demo.applitools.com/hackathonV2.html`
+-  Run the Traditional Test Suite on Version 1: 
+   -  `py.test TraditionalSuite.py --url=https://demo.applitools.com/hackathon.html`
+ -  Run the Traditional Test Suite on Version 2:
+    -  `py.test TraditionalSuite.py --url=https://demo.applitools.com/hackathonV2.html`
     
 3.4.  Run one of the following commands for Visual Test Suite, which you wrote:
-    -  To run Visual AI Test Suite on Version 1:  `py.test VisualAISuite.py --url=https://demo.applitools.com/hackathon.html`
-    -  To run Visual AI Test Suite on Version 2:  `py.test VisualAISuite.py --url=https://demo.applitools.com/hackathonV2.html`
+- To run Visual AI Test Suite on Version 1:
+    - `py.test VisualAISuite.py --url=https://demo.applitools.com/hackathon.html`
+- To run Visual AI Test Suite on Version 2:
+    - `py.test VisualAISuite.py --url=https://demo.applitools.com/hackathonV2.html`
 
 ## To See the Full Solution
 
-5.  Run the VisualAISuiteSolution:
-    -  Run the Visual AI Suite Solution on Version 1: `py.test VisualAISuiteSolution.py --url=https://demo.applitools.com/hackathon.html`
-    -  Run the Visual AI Suite Solution on Version 2: `py.test VisualAISuiteSolution.py --url=https://demo.applitools.com/hackathonV2.html`
+5. Run the VisualAISuiteSolution:
+    - Run the Visual AI Suite Solution on Version 1: 
+        - `py.test VisualAISuiteSolution.py --url=https://demo.applitools.com/hackathon.html`
+    -  Run the Visual AI Suite Solution on Version 2:
+       -  `py.test VisualAISuiteSolution.py --url=https://demo.applitools.com/hackathonV2.html`
 
 
