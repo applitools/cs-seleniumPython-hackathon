@@ -1,4 +1,4 @@
-# applitools-seleniumPython-hackathon
+# cs-Applitools-seleniumPython-hackathon
 
 ## Pre-Requisites
 1.  Install Python [here](https://www.python.org/downloads/)
@@ -25,3 +25,28 @@ Write an automated test for both versions which leverages Applitools. Run both a
 6.  Run the same test again and see all the differences between the screenshots of the 1st version and the 2nd version of the app.
 
 Note: When you run the tests against V2, you’ll see differences in screenshots because the app is actually different. You should see exactly what those differences are (highlighted in pink) in Applitools dashboard.
+
+## Running the Example
+
+1.  Download the Example
+    -  Option 1:  `git clone https://github.com/applitools/cs-seleniumPython-hackathon`
+    -  Option 2:  Download it as a Zip file and extract it
+2.  Run the Project
+
+**In order to run the test from commandLine:**
+
+3.1.  Open a commandLine window
+3.2.  Navigate to the recently cloned folder cs-applitools-java-hackathon.
+3.3.  Run one of the following commands for Traditional Test Suite:
+    -  Run the Traditional Test Suite on Version 1 `py.test TraditionalSuite.py --url=https://demo.applitools.com/hackathon.html`
+    -  Run the Traditional Test Suite on Version 1 `py.test TraditionalSuite.py --url=https://demo.applitools.com/hackathonV2.html`
+3.4.  Run one of the following commands for Visual Test Suite, which you wrote:
+    -  To run Visual AI Test Suite on Version 1:  `py.test VisualAISuite.py --url=https://demo.applitools.com/hackathon.html`
+    -  To run Visual AI Test Suite on Version 2:  `py.test VisualAISuite.py --url=https://demo.applitools.com/hackathonV2.html`
+
+## To See the Full Solution
+5.  Run the VisualAISuiteSolution:
+    -  Run the Visual AI Suite Solution on Version 1: `py.test VisualAISuiteSolution.py --url=https://demo.applitools.com/hackathon.html`
+    -  Run the Visual AI Suite Solution on Version 2: `py.test VisualAISuiteSolution.py --url=https://demo.applitools.com/hackathonV2.html`
+
+
