@@ -2,7 +2,12 @@
 
 ## Pre-Requisites
 1.  Install Python [here](https://www.python.org/downloads/)
-2.  Install ChromeDriver from [here](https://chromedriver.chromium.org/downloads) if you are running on mac, you can also install it using the brew, simply run `brew install chromedriver`
+2. Install ChromeDriver from [here](https://chromedriver.chromium.org/downloads) if you are running on mac, you can also install it using the brew,
+   simply run ```brew install chromedriver```
+   -  Please check to make sure your google chrome browser is the same version as the chromedriver you install
+   1)  Open chrome and navigate to chrome://settings/help
+   2)  Check your version!
+   3)  Download the compatible chriomeDriver version:  [here](https://chromedriver.chromium.org/downloads)
 3.  Register to Applitools and [create an account](https://auth.applitools.com/users/register)
 4.  Ensure you have your Applitools API Key!
 
@@ -31,7 +36,8 @@ Note: When you run the tests against V2, you’ll see differences in screenshots
 1.  Download the Example
     -  Option 1:  `git clone https://github.com/applitools/cs-seleniumPython-hackathon`
     -  Option 2:  Download it as a Zip file and extract it
-2.  Run the Project
+2.  Inside of the code, in the ``driver_setup`` function, copy and paste your chromedriver pasgte into the parenthesis of the line ``driver=webdriver.Chrome('/path/to/chromedriver')``
+3.  Run the Project, 
 
 **In order to run the test from commandLine:**
 
